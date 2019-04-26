@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meme</title>
+    <link rel="stylesheet" href="">
+    <link href="C:\Users\Igne\Desktop\prjc\owl\OwlCarousel2-2.3.4\dist\assets\owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="C:\Users\Igne\Desktop\prjc\owl\OwlCarousel2-2.3.4\dist\assets\owl.theme.default.min.css" rel="stylesheet" type="text/css">
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    -->
+    <style>
+        .img-fluid{
+            max-width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        ul.komentaruForma {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body onload="listoKurimasAntras()">
+    <!-- visas virsus  -->
+    <header>
+        <div class="logo">
+            <img src="#">
+        </div>  
+        <div class="navBar">
+            <ul>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">REGISTER</a></li>
+                <li><a href="#">FOLLOW US ON</a></li>
+                <li><a href="#">logo</a></li>
+                <li><a href="#">logo</a></li>
+                <li><a href="#">logo</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- CENTRINIS TEXTAS  -->
+    <p>MEMEKING 2017 BEST MEMES</p>
+    <!--SLIDER-->
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="kemp.png">
+        </div>
+        <div class="item">
+            <img src="smile.jpg">
+        </div>
+        <div class="item">
+            <img src="jesus.jpg">
+        </div>
+        <div class="item">
+            <img src="evil.jpg">
+        </div>
+        
+    </div>
+
+    <!-- komentarai  -->
+
+    <ul>
+    <div id="divasIsHtmlSkriptoVietai"></div>
+    <input type="text" id="inputas">
+    <button onclick="inputoTustumoTikrinimas()">Prideti komentara</button>
+    </ul>
+
+    <!-- footeris, apatinis nav ir textas po jio  -->
+    <footer class="footer">
+        <div class="footerA">
+            <div class="logo">
+                <img src="#">
+            </div>  
+                <ul>
+                    <li><a href="#">2018 BEST MEMES</a></li>
+                    <li><a href="#">2017 BEST MEMES</a></li>
+                    <li><a href="#">FOLLOW US ON</a></li>
+                    <li><a href="#">logo</a></li>
+                    <li><a href="#">logo</a></li>
+                    <li><a href="#">logo</a></li>
+                </ul>
+            </div>
+        <div class="footerB">
+        
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="C:\Users\Igne\Desktop\prjc\owl\OwlCarousel2-2.3.4\docs\assets\vendors\jquery.min.js"></script>
+    <script src="C:\Users\Igne\Desktop\prjc\owl\OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
